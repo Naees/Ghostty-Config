@@ -1,0 +1,49 @@
+# ---------------------------------------------------------
+# Ghostty Configuration: Banana Blueberry Edition
+# ---------------------------------------------------------
+
+# --- Theme & Transparency ---
+theme = Banana Blueberry
+background-opacity = 0.85
+background-blur = true
+window-theme = dark
+
+# --- Typography ---
+font-family = "JetBrains Mono Nerd Font"
+font-size = 13.0
+font-thicken = true
+font-feature = ["calt", "liga"]
+
+# --- Window Layout & Size ---
+window-padding-x = 12
+window-padding-y = 12
+window-decoration = false
+window-save-state = "default"
+window-width = 100
+window-height = 30
+
+# --- Cursor Customization ---
+cursor-style = block
+cursor-style-blink = true
+cursor-color = #ffdd55
+adjust-cursor-thickness = "150%"
+shell-integration-features = no-cursor
+
+# --- Performance & Tweaks ---
+clipboard-trim-trailing-spaces = true
+confirm-close-surface = false
+
+# --- Core Keybindings ---
+keybind = ctrl+r=reload_config
+
+# --- macOS Native Window Split Mappings (Arrow Keys) ---
+keybind = super+up=new_split:up
+keybind = super+down=new_split:down
+keybind = super+left=new_split:left
+keybind = super+right=new_split:right
+
+# --- macOS Native Navigation Between Active Splits ---
+keybind = super+shift+up=goto_split:up
+keybind = super+shift+down=goto_split:down
+keybind = super+shift+left=goto_split:left
+keybind = super+shift+right=goto_split:right
